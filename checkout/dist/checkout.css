@@ -1,0 +1,70 @@
+.orderlist {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  margin: 0vw auto;
+}
+.orderlist .text {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+.orderlist .text__item {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  margin: 1vw;
+  border-radius: 0 30px 30px 0;
+}
+.orderlist .text__item__itemDscrp {
+  text-align: left;
+  font-size: 4em;
+  margin-left: 0;
+  padding: 0 0 0 2vw;
+}
+.orderlist .text__item__price {
+  text-align: center;
+  color: gold;
+  font-size: 4vw;
+  background-color: rgba(91, 168, 27, 0.751);
+  border-radius: 30px 0 0 30px;
+  width: 7vw;
+  margin-top: 0%;
+  height: 50%;
+}
+.orderlist img {
+  width: 20%;
+  height: 20%;
+}
+
+.confirmation {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0%;
+  background-color: #d7cb88;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0vw;
+}
+.confirmation .words {
+  font-size: 4rem;
+}
+.confirmation .btn {
+  border: solid 0.5vw goldenrod;
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+  font-size: 3rem;
+  margin: 2vw 3vw;
+  background-color: goldenrod;
+  border-radius: 30px;
+}
+.confirmation .btn:hover {
+  background-color: #bd8906;
+  color: white;
+  border: solid 0.5vw #bd8906;
+}
