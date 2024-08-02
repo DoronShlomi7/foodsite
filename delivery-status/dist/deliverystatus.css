@@ -1,0 +1,100 @@
+#statuspage .title {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+#statuspage .orderbox {
+  background-color: #c7c4c4;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#statuspage .orderbox .description {
+  display: flex;
+  flex-direction: row;
+  font-size: 3rem;
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+#statuspage .orderbox .description .orderstatus {
+  font-size: 3rem;
+  color: green;
+}
+#statuspage .orderbox .progressbar {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+#statuspage .orderbox .progressbar .barFull {
+  font-size: 2rem;
+  margin: 2vw;
+}
+#statuspage .orderbox .progressbar .barFull .box {
+  width: 100%;
+  height: 25px;
+  background-color: #2d2d2d;
+  border: solid 1px black;
+}
+#statuspage .orderbox .progressbar .barEmpty {
+  font-size: 2rem;
+  margin: 2vw;
+}
+#statuspage .orderbox .progressbar .barEmpty .box {
+  width: 100%;
+  height: 25px;
+  background-color: transparent;
+  border: solid 1px black;
+}
+#statuspage .orderbox .progressbar .barEmpty .box .slider {
+  width: 0%;
+  height: 100%;
+  background-color: #2a2929;
+  position: relative;
+  animation: fillAnim 22s;
+}
+#statuspage .orderbox .map .mapimg {
+  height: 70%;
+  width: 70%;
+}
+#statuspage .orderbox .map .driverIcon {
+  background-image: url(https://www.pinclipart.com/picdir/middle/187-1879813_motorcycle-with-sidecar-clipart.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  bottom: 10vw;
+  left: 33vw;
+  height: 50px;
+  width: 60px;
+  animation: drivermov 22s;
+}
+
+@keyframes fillAnim {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes drivermov {
+  0% {
+    bottom: 10vw;
+    left: 33vw;
+  }
+  30% {
+    bottom: 18vw;
+    left: 31vw;
+  }
+  60% {
+    bottom: 19vw;
+    left: 41vw;
+  }
+  100% {
+    bottom: 28vw;
+    left: 40vw;
+  }
+}
