@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order status</title>
+    <link rel="stylesheet" href="../global.scss" />
+    <link rel="stylesheet" href="./dist/deliverystatus.css" />
+  </head>
+  <body>
+    <div id="statuspage">
+      <div class="title">Delivery Status</div>
+      <div class="orderbox">
+        <div class="description">
+          Order status:
+          <div class="orderstatus">Delivering your order to you</div>
+        </div>
+        <div class="progressbar">
+          <div class="barFull">
+            Order reached resturant
+            <div class="box"></div>
+          </div>
+          <div class="barFull">
+            Order is being prepared
+            <div class="box"></div>
+          </div>
+          <div class="barEmpty">
+            Order is being delivered to you
+            <div class="box"><div class="slider"></div></div>
+          </div>
+        </div>
+        <div class="map">
+            <img class="mapimg" src="./assets/Map.png" alt="map">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

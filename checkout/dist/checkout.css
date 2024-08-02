@@ -53,6 +53,12 @@
 .confirmation .words {
   font-size: 4rem;
 }
+.confirmation a {
+  color: black;
+}
+.confirmation a:hover {
+  color: white;
+}
 .confirmation .btn {
   border: solid 0.5vw goldenrod;
   margin: 0;
@@ -65,6 +71,5 @@
 }
 .confirmation .btn:hover {
   background-color: #bd8906;
-  color: white;
   border: solid 0.5vw #bd8906;
 }

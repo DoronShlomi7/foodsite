@@ -1,0 +1,78 @@
+#statuspage {
+  .title {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2vw;
+  }
+  .orderbox {
+    background-color: rgb(199, 196, 196);
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    .description {
+      display: flex;
+      flex-direction: row;
+      font-size: 3rem;
+      margin: 2vw;
+      .orderstatus {
+        font-size: 3rem;
+        color: green;
+       
+      }
+    }
+    .progressbar
+    {
+        display: flex;
+        flex-direction: row;
+        .barFull{
+            font-size: 2rem;
+            margin: 2vw;
+           .box
+           {
+            width: 100%;
+            height: 25px;
+            background-color: rgb(45, 45, 45);
+            border: solid 1px black;
+           }
+        }
+        .barEmpty{
+            font-size: 2rem;
+            margin: 2vw;
+            .box
+            {
+                width: 100%;
+                height: 25px;
+                background-color: transparent;
+                border: solid 1px black;
+                .slider
+                {
+                 width: 0%;
+                height: 100%;
+                background-color:rgb(42, 41, 41) ;
+                position: relative;
+                animation: fillAnim 22s;
+                
+                }
+               
+            }
+        
+        }
+    }
+    .mapimg
+    {
+        height: 60%;
+        width: 60%;
+    }
+  }
+}
+@keyframes fillAnim {
+    0%{
+        width: 0%;
+    }
+    100%
+    {
+        width: 100%;
+    }
+
+}
