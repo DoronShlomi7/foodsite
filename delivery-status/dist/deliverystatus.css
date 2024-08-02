@@ -9,18 +9,22 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 #statuspage .orderbox .description {
   display: flex;
   flex-direction: row;
   font-size: 3rem;
-  margin: 2vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
 }
 #statuspage .orderbox .description .orderstatus {
   font-size: 3rem;
   color: green;
 }
 #statuspage .orderbox .progressbar {
+  justify-content: center;
+  text-align: center;
   display: flex;
   flex-direction: row;
 }
@@ -51,9 +55,21 @@
   position: relative;
   animation: fillAnim 22s;
 }
-#statuspage .orderbox .mapimg {
-  height: 60%;
-  width: 60%;
+#statuspage .orderbox .map .mapimg {
+  height: 70%;
+  width: 70%;
+}
+#statuspage .orderbox .map .driverIcon {
+  background-image: url(https://www.pinclipart.com/picdir/middle/187-1879813_motorcycle-with-sidecar-clipart.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  bottom: 10vw;
+  left: 33vw;
+  height: 50px;
+  width: 60px;
+  animation: drivermov 22s;
 }
 
 @keyframes fillAnim {
@@ -62,5 +78,23 @@
   }
   100% {
     width: 100%;
+  }
+}
+@keyframes drivermov {
+  0% {
+    bottom: 10vw;
+    left: 33vw;
+  }
+  30% {
+    bottom: 18vw;
+    left: 31vw;
+  }
+  60% {
+    bottom: 19vw;
+    left: 41vw;
+  }
+  100% {
+    bottom: 28vw;
+    left: 40vw;
   }
 }
