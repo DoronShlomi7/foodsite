@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+    margin: 0;
+}
+
+
+.top_home_page {
+
+    .top_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .top_header {
+        margin-top: -10rem;
+        color: #fff;
+        background-color: blue;
+    }
+
+    .search_bar {
+        display: flex;
+        /* flex-direction: row;
+        align-content: center; */
+    }
+
+    .input {
+        border:none;
+        outline:none;
+        display:inline-block;
+        height:34px;
+        vertical-align:middle;
+        position:relative;
+        bottom:14px;
+        right:9px;
+        border-radius:22px;
+        width:220px;
+        box-sizing:border-box;
+        padding:0 18px; 
+    }
+
+    .search_btn{ 
+        background:rgba(197,62,126,.33);
+        color:#fff;
+        position:relative;
+        left:9px;
+        top:25px; 
+        width:100px;
+        cursor:pointer;
+      }
+}
+
+.categories_header {
+    margin-top: 5rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    /* margin-top: 1rem; */
+
+    .category {
+        text-align: center;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: ease-in-out;
+        }
+        
+        .category_img {
+            height: 10rem;
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 14vw;
+            }
+        } 
+
+        .category_text {
+            font-weight: 500;
+            margin-top: 0;
+        }
+    }
+}
