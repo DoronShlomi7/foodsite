@@ -59,9 +59,11 @@
     }
 
     .map {
+    
       .mapimg {
         height: 70%;
         width: 70%;
+        
       }
       .driverIcon {
         background-image: url(https://www.pinclipart.com/picdir/middle/187-1879813_motorcycle-with-sidecar-clipart.png);
@@ -71,8 +73,8 @@
         position: relative;
         bottom: 10vw;
         left: 33vw;
-        height: 50px;
-        width: 60px;
+        height: 2vw;
+        width: 2vw;
         animation: drivermov 22s;
       }
     }

@@ -67,8 +67,8 @@
   position: relative;
   bottom: 10vw;
   left: 33vw;
-  height: 50px;
-  width: 60px;
+  height: 2vw;
+  width: 2vw;
   animation: drivermov 22s;
 }
 
