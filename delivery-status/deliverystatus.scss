@@ -2,12 +2,17 @@ body {
   background-image: url(https://th.bing.com/th/id/R.3584531dfa016fa04ed723faa6aba48b?rik=ogAD%2fmT4ddL2zw&pid=ImgRaw&r=0);
   background-size: 400px 400px;
 }
-
+:root{
+  --bartextsize:3vw;
+}
 #statuspage {
   .title {
     font-size: 4rem;
     text-align: center;
     margin-bottom: 2vw;
+    background-color: rgba(208, 161, 40, 0.772);
+    margin: 0 auto;
+    width: fit-content;
   }
   .orderbox {
     background-color: rgba(229, 230, 229, 0.811);
@@ -32,15 +37,17 @@ body {
 
     text-align: center;
     .progressbar {
-      justify-content: center;
-      text-align: center;
+     justify-content:space-between;
+      //text-align: center;
       display: flex;
       flex-direction: row;
+      
       .barFull {
-        font-size: 2rem;
+        font-size: $bartextsize;
         margin: 2vw;
+        
         .box {
-          width: 100%;
+          width: 20vw;
           height: 15px;
           border-radius: 20px;
           background-color: rgb(24, 225, 85);
@@ -48,10 +55,11 @@ body {
         }
       }
       .barEmpty {
-        font-size: 2rem;
+        font-size: $bartextsize;
         margin: 2vw;
+
         .box {
-          width: 100%;
+          width: 20vw;
           border-radius: 20px;
           height: 15px;
           background-color: transparent;

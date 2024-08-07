@@ -7,6 +7,9 @@ body {
   font-size: 4rem;
   text-align: center;
   margin-bottom: 2vw;
+  background-color: rgba(208, 161, 40, 0.772);
+  margin: 0 auto;
+  width: fit-content;
 }
 #statuspage .orderbox {
   background-color: rgba(229, 230, 229, 0.811);
@@ -29,28 +32,27 @@ body {
   color: green;
 }
 #statuspage .orderbox .progressbar {
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
 }
 #statuspage .orderbox .progressbar .barFull {
-  font-size: 2rem;
+  font-size: 1.2vw;
   margin: 2vw;
 }
 #statuspage .orderbox .progressbar .barFull .box {
-  width: 100%;
+  width: 20vw;
   height: 15px;
   border-radius: 20px;
   background-color: #18e155;
   border: solid 1px black;
 }
 #statuspage .orderbox .progressbar .barEmpty {
-  font-size: 2rem;
+  font-size: 1.2vw;
   margin: 2vw;
 }
 #statuspage .orderbox .progressbar .barEmpty .box {
-  width: 100%;
+  width: 20vw;
   border-radius: 20px;
   height: 15px;
   background-color: transparent;
