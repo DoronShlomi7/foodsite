@@ -1,0 +1,87 @@
+<<<<<<< Updated upstream
+=======
+body {
+    font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+    margin: 0;
+}
+
+.top_home_page {
+
+    .top_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .top_header {
+        position: relative;
+        color: #fff;
+    }
+
+    .search_bar {
+        display: flex;
+        /* flex-direction: row;
+        align-content: center; */
+    }
+
+    .input {
+        border:none;
+        outline:none;
+        display:inline-block;
+        height:34px;
+        position:relative;
+        left: 20px;
+        border-radius:22px;
+        width:220px;
+        box-sizing:border-box;
+        padding:0 18px; 
+    }
+
+    .search_btn{ 
+        background:#ffffff5f;
+        color:#000;
+        position:relative;
+        left:30px; 
+        width:100px;
+        border-radius:22px;
+        cursor:pointer;
+      }
+}
+
+.categories_header {
+    margin-top: 5rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+
+    .category {
+        text-align: center;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: ease-in-out;
+        }
+        
+        &_img {
+            height: 10rem;
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 14vw;
+            }
+        } 
+
+        .category_text {
+            font-weight: 500;
+            margin-top: 0;
+        }
+    }
+}
+>>>>>>> Stashed changes

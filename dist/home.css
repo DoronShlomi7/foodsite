@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 
+<<<<<<< Updated upstream
 
 .top_home_page {
 
@@ -47,6 +48,42 @@ body {
         width:100px;
         cursor:pointer;
       }
+=======
+.top_home_page .top_image {
+  width: 100%;
+  height: auto;
+}
+.top_home_page .top_header {
+  position: relative;
+  color: #fff;
+  background-color: blue;
+}
+.top_home_page .search_bar {
+  display: flex;
+  /* flex-direction: row;
+  align-content: center; */
+}
+.top_home_page .input {
+  border: none;
+  outline: none;
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  left: 20px;
+  border-radius: 22px;
+  width: 220px;
+  box-sizing: border-box;
+  padding: 0 18px;
+}
+.top_home_page .search_btn {
+  background: #ffffff5f;
+  color: #000;
+  position: relative;
+  left: 30px;
+  width: 100px;
+  border-radius: 22px;
+  cursor: pointer;
+>>>>>>> Stashed changes
 }
 
 .categories_header {
