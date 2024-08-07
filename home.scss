@@ -3,7 +3,6 @@ body {
     margin: 0;
 }
 
-
 .top_home_page {
 
     .top_image {
@@ -12,7 +11,7 @@ body {
     }
 
     .top_header {
-        margin-top: -10rem;
+        position: relative;
         color: #fff;
         background-color: blue;
     }
@@ -28,10 +27,8 @@ body {
         outline:none;
         display:inline-block;
         height:34px;
-        vertical-align:middle;
         position:relative;
-        bottom:14px;
-        right:9px;
+        left: 20px;
         border-radius:22px;
         width:220px;
         box-sizing:border-box;
@@ -42,9 +39,9 @@ body {
         background:#ffffff5f;
         color:#000;
         position:relative;
-        left:9px;
-        top:25px; 
+        left:30px; 
         width:100px;
+        border-radius:22px;
         cursor:pointer;
       }
 }
@@ -60,7 +57,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     overflow: hidden;
-    /* margin-top: 1rem; */
 
     .category {
         text-align: center;
@@ -71,7 +67,7 @@ body {
             transition: ease-in-out;
         }
         
-        .category_img {
+        &_img {
             height: 10rem;
             display: flex;
             justify-content: center;
