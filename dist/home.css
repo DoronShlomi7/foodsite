@@ -29,13 +29,23 @@ body {
   padding: 0 18px;
 }
 .top_home_page .search_bar .search_btn {
-  background: #ffffff5f;
-  color: #000;
+  background: #fff;
   width: 3rem;
   height: 34px;
   margin-left: 0.3rem;
   border-radius: 22px;
   cursor: pointer;
+}
+.top_home_page .search_bar .search-icon {
+  width: 1.7rem;
+  position: relative;
+  right: 2.5rem;
+  top: 0.6rem;
+}
+.top_home_page .search_bar .search-icon:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: ease-in-out 0.2s;
 }
 
 .header {
@@ -79,5 +89,58 @@ body {
 }
 
 .best-restaurants-header {
-  margin-top: 3rem;
+  margin-top: 5rem;
+}
+
+.best-restaurants {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+  margin: 0 auto;
+  gap: 2rem;
+}
+.best-restaurants .restaurant {
+  box-sizing: border-box;
+  padding: 10px;
+  padding: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.best-restaurants .restaurant__img {
+  width: 17vw;
+  height: 24vh;
+}
+.best-restaurants .restaurant__name {
+  font-weight: 600;
+}
+.best-restaurants .restaurant__description {
+  width: 17vw;
+}
+.best-restaurants .restaurant .star {
+  color: #ef934cbd;
+}
+.best-restaurants .restaurant:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: ease-in-out 0.2s;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  background-color: #212121;
+  margin-top: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+.footer .foodies {
+  color: #fff;
+}
+.footer .copyright {
+  color: #fff;
+  margin-right: 0.2rem;
 }
