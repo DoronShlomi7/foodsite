@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
 }
 
@@ -7,71 +7,77 @@ body {
   width: 100%;
   height: auto;
 }
-.top_home_page .top_header {
+.top_home_page .search_bar {
   position: relative;
-  color: #fff;
   top: -30rem;
-  z-index: 999;
   left: 10rem;
 }
-.top_home_page .search_bar {
-  display: flex;
-  /* flex-direction: row;
-  align-content: center; */
+.top_home_page .search_bar .top_header {
+  color: #fff;
+  z-index: 999;
+  font-weight: 300;
+  font-size: 3rem;
 }
-.top_home_page .input {
+.top_home_page .search_bar .input {
   border: none;
   outline: none;
   display: inline-block;
   height: 34px;
-  position: relative;
-  left: 10rem;
-  top: -30rem;
   border-radius: 22px;
-  width: 220px;
+  width: 18rem;
   box-sizing: border-box;
   padding: 0 18px;
 }
-.top_home_page .search_btn {
+.top_home_page .search_bar .search_btn {
   background: #ffffff5f;
   color: #000;
-  position: relative;
-  top: -30rem;
-  left: 10.5rem;
-  width: 4rem;
+  width: 3rem;
+  height: 34px;
+  margin-left: 0.3rem;
   border-radius: 22px;
   cursor: pointer;
 }
 
-.categories_header {
-  margin-top: 5rem;
+.header {
   text-align: center;
-  font-weight: 100;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.categories_header {
+  margin-top: -8rem;
 }
 
 .categories {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  overflow: hidden;
+  width: 95%;
+  gap: 2rem;
+  margin: 0 auto;
 }
 .categories .category {
   text-align: center;
+  background-color: #ef934c21;
+  width: 20rem;
+  padding-top: 2rem;
+  border-radius: 1rem;
 }
 .categories .category:hover {
   cursor: pointer;
   transform: scale(1.1);
-  transition: ease-in-out;
+  transition: ease-in-out 0.2s;
+  background-color: #ef934c51;
 }
 .categories .category_img {
-  height: 10rem;
-  display: flex;
-  justify-content: center;
+  width: 4vw;
 }
-.categories .category_img img {
-  width: 14vw;
-}
-.categories .category .category_text {
+.categories_text {
   font-weight: 500;
   margin-top: 0;
+}
+
+.best-restaurants-header {
+  margin-top: 3rem;
 }

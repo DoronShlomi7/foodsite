@@ -23,12 +23,12 @@
   font-weight: 600;
 }
 .navbar .singup {
-  background-color: rgba(137, 43, 226, 0.345);
-  color: #892be2;
+  background-color: #ef934c69;
+  color: #EF934C;
   padding: 0.7rem;
   margin-right: 1rem;
   border-radius: 6px;
 }
 .navbar .singup:hover {
-  background-color: rgba(137, 43, 226, 0.571);
+  background-color: #ef934c8b;
 }
