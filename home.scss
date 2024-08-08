@@ -13,7 +13,9 @@ body {
     .top_header {
         position: relative;
         color: #fff;
-        background-color: blue;
+        top: -30rem;
+        z-index: 999;
+        left: 10rem;
     }
 
     .search_bar {
@@ -28,7 +30,8 @@ body {
         display:inline-block;
         height:34px;
         position:relative;
-        left: 20px;
+        left: 10rem;
+        top: -30rem;
         border-radius:22px;
         width:220px;
         box-sizing:border-box;
@@ -39,10 +42,11 @@ body {
         background:#ffffff5f;
         color:#000;
         position:relative;
-        left:30px; 
-        width:100px;
+        top: -30rem;
+        left: 10.5rem;
+        width: 4rem;
         border-radius:22px;
-        cursor:pointer;
+        cursor: pointer;
       }
 }
 
