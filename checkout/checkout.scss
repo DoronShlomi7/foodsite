@@ -67,19 +67,19 @@
     }
   }
   .btn {
-    border: solid 0.5vw goldenrod;
+    border: solid 0.5vw #ef934c69;
     margin: 0;
     width: fit-content;
     height: fit-content;
     font-size: 3rem;
     margin: 2vw 3vw;
-    background-color: goldenrod;
+    background-color: #EF934C;
     border-radius: 30px;
 
     &:hover {
-      background-color: rgb(189, 137, 6);
+      background-color: #ef934c8b;
      
-      border: solid 0.5vw rgb(189, 137, 6);
+    //  border: solid 0.5vw rgb(189, 137, 6);
     }
   }
 }
